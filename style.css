@@ -17,23 +17,24 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .container {
-     width: 100%;
-    padding: 0 15px;
+    width: 100%;
+    padding: 0 10px;
     margin: 0 auto;
   }
   
   .extra-video {
   text-align: left;
-    .contact-form {
+  <iframe width="360" height="115" src="https://www.youtube.com/embed/o1ZQaDFpgp8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
+    
+  .contact-form {
   text-align: left;
     
     footer {
     text-align: center;
   }
   
-  .top-wrapper {
-    text-align: left;
-  }
+ 
   
   /* Tambahkan CSS untuk header-right */
   .header-right {
