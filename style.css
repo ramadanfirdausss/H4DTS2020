@@ -60,19 +60,3 @@
 
 ===
 
-@media only screen and (max-width:1024px){
-  .top-content{
-    background-size:cover;
-  position:absolute;
-  }
-  header{
-    width:118%;
-  }
-}
-
-@media only screen and (max-width:768px){
-  header{
-    width:156%;
-  }
-}
-
