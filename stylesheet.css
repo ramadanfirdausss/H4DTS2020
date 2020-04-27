@@ -80,10 +80,7 @@ header {
 }
 .dua{
   margin-left:-160px;
-.profile {
-  text-align: center;
 }
-
 .card .img img {
   width: 100%;
   height: 200px;
@@ -94,7 +91,7 @@ header {
 .profile {
   text-align: center;
 }
-    
+
 .profile img {
   width: 120px;
   height: 120px;
