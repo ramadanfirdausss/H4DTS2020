@@ -1,53 +1,29 @@
-/* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  
-  .top-wrapper h1 {
+  .top-content h1 {
     font-size: 32px;
   }
   
-  .heading h2 {
-    font-size: 20px;
+  .cards {
+    justify-content: center;
   }
+
+  .card {
+    margin: 20px;
+  }
+
 }
 
-/* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .container {
-    width: 100%;
-    padding: 0 10px;
-    margin: 0 auto;
+  .top-content {
+    text-align: left;
   }
-  
-  .extra-video {
-  text-align: left;
-  <iframe width="360" height="115" src="https://www.youtube.com/embed/o1ZQaDFpgp8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  }
-    
-  .contact-form {
-  text-align: left;
-    
-    footer {
-    text-align: center;
-  }
-  
- 
-  
-  /* Tambahkan CSS untuk header-right */
-  .header-right {
+
+  .header-left {
     display: none;
   }
-  
-  /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {
-    display: block;
+
+  .vidio {
+    width: 275;
+    height:200;
   }
-  
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  
+}
