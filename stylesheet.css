@@ -143,6 +143,15 @@ header {
   border-radius:10px; 
 }
 /* End Extra Video */
+
+.contact-form {
+  text-align: center;
+  padding: 40px;
+  background-color: #ddd;
+  margin: 5px;
+  border-radius:10px; 
+}
+
 footer {
     width: 100%;  
     background-color: rgb(21, 55, 128, 0.884);
