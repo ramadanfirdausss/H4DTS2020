@@ -1,70 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
-body {
+* {
+    padding: 0;
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header-navigasi {
+  width: 100%;
+  height: 75px;
+  background-color: rgba(21, 55, 128, 0.884);
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  color: seashell;
+  position: sticky;
+  top: 0;
 }
 
 .container {
-        width: 1170px;
-        padding: 0 15px;
-        margin: 0 auto;
-      }
+  /*max-width: 1076px;*/
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 header {
-    height: 75px;
-    width: 100%;
-    background-color: rgba(21, 55, 128, 0.884);
-  }
+ display: inline;
+}
 
 .logo-image {
-    height: 80px;
-    margin-top: -7.5px;
+  height: 80px;
+  margin-top: 7.5px;
 }
 
 .header-left {
-    float: left;
+  float: left;
 }
 
 .header-right {
-    float: right;
-    transition: all 0.5s;
-    background-color: rgba(7, 121, 167, 0.8);
+  float: right;
+  transition: all 0.5s;
+  background-color: rgba(7, 121, 167, 0.8);
 }
 
 .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-weight: bold;
-    color: rgb(232, 240, 247);
-  }
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  color: rgb(232, 240, 247);
+}
 
 .header-right a {
-    display: inline-block;
-    line-height: 75px;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: white;
-    text-decoration: none;
+  display: inline-block;
+  line-height: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  text-decoration: none;
 }
 
 .top-content {
-    padding: 150px 0 100px 0;
-    background-image: url(topbackground.png);
-    background-size: cover;
-    color: white;
-    text-align: center;
+  padding: 90px 0 100px 0;
+  background-image: url(topbackground.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
-
-/* Card style */
-
+/*profil anggota */
 .cards{
-  display:grid;
-  grid-template-columns: auto auto auto;
-  padding-left:80px;
-  border-radius: 10px;
-  margin: 5px;
-  background-color: #ddd;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #dddd;
+  justify-content: center;
+  align-items: stretch;
 }
 .card {
   width: 300px;
@@ -72,15 +86,17 @@ header {
   box-shadow: 1px 1px 4px black;
   margin: 50px ;
   border-radius: 10px;
-  
 }
+
 .satu{
   grid-column-start:2;
   margin-left:-200px;
 }
+
 .dua{
   margin-left:-160px;
 }
+
 .card .img img {
   width: 100%;
   height: 200px;
@@ -109,7 +125,8 @@ header {
 }
 
 .profile h6 {
-  margin-top: -18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   color: grey;
   letter-spacing: 4px;
 }
@@ -132,7 +149,7 @@ header {
   color: #543276;
   transform: scale(1.5);
 }
-/* End Card Style */
+/* End profile anggota */
 
 /* Extra Video */
 .extra-video {
@@ -142,36 +159,37 @@ header {
   margin: 5px;
   border-radius:10px; 
 }
+
+.vidio {
+  width:560; 
+  height:315;
+}
 /* End Extra Video */
 
 .contact-form {
   text-align: center;
-  padding: 40px;
+  padding: 20px;
   background-color: #ddd;
-  margin: 5px;
-  border-radius:10px; 
 }
 
-.contact-submit input:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-weight: bold;
-    color: rgb(232, 240, 247);
-}
+
 footer {
-    width: 100%;  
+
     background-color: rgb(21, 55, 128, 0.884);
+    color: white;
     text-align: center;
     bottom: 0;
        
 }
 
 footer img {
-    padding-top: 5px;
+    padding-top: 15px;
     width: 180px;
 }
 
 footer p {
     color: #cac6cc;
     font-size: 12px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
+
