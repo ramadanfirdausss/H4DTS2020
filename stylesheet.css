@@ -152,6 +152,11 @@ header {
   border-radius:10px; 
 }
 
+.contact-submit input:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    color: rgb(232, 240, 247);
+}
 footer {
     width: 100%;  
     background-color: rgb(21, 55, 128, 0.884);
