@@ -16,22 +16,14 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .card {
-    width: 100%;
-  }
-  header {
-    text-align: center;
-  }
-  footer {
-    text-align: center;
+  .container {
+     width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
   }
   
-  .btn {
-    width: 100%;
-  }
-  
-  .facebook {
-    margin-bottom: 10px;
+    footer {
+    text-align: center;
   }
   
   .top-wrapper {
@@ -53,8 +45,3 @@
     line-height: 36px;
   }
   
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
